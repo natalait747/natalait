@@ -1,0 +1,140 @@
+    
+body{
+  margin: 0;
+  padding: 0;
+}
+#range{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+  .block{
+    width: 257px;
+    height: 470px;        
+    background-color: #ffffff;
+    border: 1px solid red;
+    display: inline-block;
+    margin: 8px;
+  }
+  .image{
+    width: 227px;
+    height: 224px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 11px;
+  }
+  .name{
+    width: 227px;
+    height: 74px;
+    margin: 12px auto 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;     
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #19191D;
+    letter-spacing: 0.0275em;
+  }
+  .price{
+    position: relative;
+    margin: 8px auto 0 auto;    
+    width: 227px;
+    height: 36px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;     
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;   
+    color: rgba(0,0,0,0.87);
+  }
+  .sale{
+    display: inline-block;
+    position: relative; 
+    left: 76px;
+    bottom: 7px;
+    margin: 0 auto;
+    width: 70px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #ecf7ed;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing:0.4px;
+    font-family: 'Roboto', sans-serif;
+    color: #37833b;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .additional{
+    margin: 0 auto;     
+    width: 227px;
+    height: 41px;
+    margin: 8px auto 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;     
+    font-weight: normal;
+    font-size: 14px;
+    color: #787885;
+  }
+  .stars{
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    margin: 20px auto 0 auto;
+  }
+  .rating{
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    margin: 14px auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #5e6366;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .button{
+    display: inline-block;
+    position: relative; 
+    margin: 9px auto 0 auto;
+    left: 40px;
+    width: 88px;
+    height: 32px;
+    border: 1px solid #9dc2ff;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  .watch{
+    margin: 0 auto;
+    width: 64px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #2264d1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: justify;
+    align-items: center;
+    letter-spacing:0.018em;
+  }
+  .benefit{
+    display: inline-block;
+    position: relative; 
+    left: 76px;
+    bottom: 7px;
+    margin: 0 auto;
+    width: 70px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #fdedf2;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing:0.4px;
+    font-family: 'Roboto', sans-serif;
+    color: #c23564;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+  }
